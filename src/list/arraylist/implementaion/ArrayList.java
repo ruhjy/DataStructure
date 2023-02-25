@@ -1,7 +1,5 @@
 package list.arraylist.implementaion;
 
-import java.util.ListIterator;
-
 public class ArrayList {
 	private int size = 0;
 	private Object[] elementData = new Object[100];
@@ -99,6 +97,15 @@ public class ArrayList {
 
 		public boolean hasPrevious() {
 			return nextIndex > 0;
+		}
+
+		public void add(Object element) {
+			ArrayList.this.add(nextIndex++, element);
+		}
+
+		public void remove() {
+			ArrayList.this.remove(nextIndex - 1);
+			nextIndex--;
 		}
 	}
 
