@@ -21,7 +21,7 @@ public class Sample16 {
 		sum3 = OptionalInt.of(6);
 		System.out.println(sum1);
 		System.out.println(sum2);
-		System.out.println(sum2.getAsInt());
+		System.out.println(sum2.getAsInt()8);
 		System.out.println(sum3);
 		System.out.println(sum3.getAsInt());
 	}
