@@ -1,4 +1,4 @@
-package egoing;
+package egoing.oop;
 
 class Accounting {
 	// 공급가액

@@ -1,4 +1,4 @@
-package egoing;
+package egoing.oop;
 
 import java.io.FileWriter;
 import java.io.IOException;

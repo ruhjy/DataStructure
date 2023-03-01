@@ -1,4 +1,4 @@
-package egoing;
+package egoing.oop;
 
 class MyOOP {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package egoing;
+package egoing.oop;
 
 class Foo {
 	static String classVar = "I class var";

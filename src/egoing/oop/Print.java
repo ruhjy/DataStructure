@@ -1,4 +1,4 @@
-package egoing;
+package egoing.oop;
 
 class Print {
 	String delimiter = "";
